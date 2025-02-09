@@ -1,0 +1,168 @@
+/* general styling for index.html */
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../images/background-img.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* style class main */
+.main {
+  /* width: 80%; */
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+/* style class navbar */
+.navbar {
+  color: #fff;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  color: orange;
+  font-size: 35px;
+  font-family: Arial;
+  font-weight: 900;
+  padding-left: 20px;
+  float: left;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.menu ul li {
+  margin-right: 20px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: midnightblue;
+}
+
+.menu ul li a:hover {
+  color: orange;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-box {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid orange;
+  background: transparent;
+}
+
+.search-box:focus {
+  outline: none;
+}
+
+.search-btn {
+  background: orange;
+  color: midnightblue;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 1px solid orange;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background: rgb(248, 166, 15);
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.courses {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 200px;
+}
+
+.course-card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  width: 300px;
+  color: #fff;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.course-card * {
+  margin: 0;
+}
+
+.course-card img {
+  width: 100%;
+  border-radius: 5px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.course-card a {
+  text-decoration: none;
+  color: orange;
+  background-color: midnightblue;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: auto;
+}
+
+.course-card p {
+  font-size: smaller;
+  margin-bottom: 10px;
+}
+
+h2 {
+  text-align: center;
+  background-color: midnightblue;
+  color: orange;
+  padding: 10px;
+}
+
+footer {
+  background: midnightblue;
+  color: orange;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
