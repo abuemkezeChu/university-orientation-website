@@ -14,12 +14,12 @@ body {
 
 /* style class main */
 .main {
-  width: 80%;
+  /* width: 80%; */
   margin: 0 auto;
   padding: 20px;
-  /* background-color: #fff; */
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
 }
 
 /* style class navbar */
@@ -95,4 +95,74 @@ body {
 
 .search-btn:hover {
   background: rgb(248, 166, 15);
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.courses {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 200px;
+}
+
+.course-card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  width: 300px;
+  color: #fff;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.course-card * {
+  margin: 0;
+}
+
+.course-card img {
+  width: 100%;
+  border-radius: 5px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.course-card a {
+  text-decoration: none;
+  color: orange;
+  background-color: midnightblue;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: auto;
+}
+
+.course-card p {
+  font-size: smaller;
+  margin-bottom: 10px;
+}
+
+h2 {
+  text-align: center;
+  background-color: midnightblue;
+  color: orange;
+  padding: 10px;
+}
+
+footer {
+  background: midnightblue;
+  color: orange;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
