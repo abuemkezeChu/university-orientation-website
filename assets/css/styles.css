@@ -12,9 +12,18 @@ body {
   background-position: center;
 }
 
-/* style class main */
+.hero-img {
+  border: 10px solid rgba(255, 255, 255, 0.5);
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
 .main {
-  /* width: 80%; */
   margin: 0 auto;
   padding: 20px;
   border-radius: 5px;
@@ -22,7 +31,6 @@ body {
   backdrop-filter: blur(5px);
 }
 
-/* style class navbar */
 .navbar {
   color: #fff;
   padding: 10px 0;
@@ -101,7 +109,26 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
+  margin: 5px 150px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.content h1 {
+  color: midnightblue;
+  font-size: 50px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.content p{
+  font-family: cursive;
+  font-style: italic;
+  margin: 0;
 }
 
 .courses {

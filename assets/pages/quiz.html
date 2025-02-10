@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Career Quiz</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/quiz.css">
+</head>
+
+<body>
+  <div class="main">
+    <nav class="navbar">
+      <div class="logo">
+        Heritage
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="./../../index.html">Home</a></li>
+          <li><a href="quiz.html">Career Quiz</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="universities.html">Universities</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+        </ul>
+      </div>
+      <div class="search">
+        <input class="search-box" type="search" placeholder="Search Courses...">
+        <button class="search-btn">Search</button>
+      </div>
+    </nav>
+  </div>
+  <!-- Quiz Container -->
+  <div class="quiz-container">
+    <h2>What Career Path Should You Choose?</h2>
+    <p style="text-align: center; font-style: italic;">Take this quiz to find out which career path is right for you.
+    </p>
+    <form action="submit" id="quiz-form">
+      <div class="question">
+        <h3>1. How do you usually make decisions?</h3>
+        <div class="options">
+          <label><input type="radio" name="question1" value="technical">I analyze all the details and make a logical
+            choice.</label>
+          <label><input type="radio" name="question1" value="creating">I trust my instincts and act
+            quickly.</label>
+          <label><input type="radio" name="question1" value="social">I look at how my decision will affect
+            others</label>
+          <label><input type="radio" name="question1" value="managerial">I focus on long-term impact rather than
+            short-term
+            results</label>
+        </div>
+      </div>
+      <div class="question">
+        <h3>2. What kind of problems do you enjoy solving?</h3>
+        <div class="options">
+          <label><input type="radio" name="question2" value="technical">Technical problems that require logical
+            thinking.</label><label><input type="radio" name="question2" value="creative">Problems that involve
+            designing or
+            building something.</label>
+          <label><input type="radio" name="question2" value="social">Problems that involve helping people or managing
+            conflicts.</label>
+          <label><input type="radio" name="question2" value="managerial">Problems that involve organizing and managing
+            resources.</label>
+        </div>
+      </div>
+      <div class="question">
+        <h3>3. How do you feel about working under pressure?</h3>
+        <div class="options">
+          <label><input type="radio" name="question3" value="technical">I thrive under pressure and enjoy
+            challenges.</label>
+          <label><input type="radio" name="question3" value="creative">I prefer a structured and predictable work
+            environment.</label>
+          <label><input type="radio" name="question3" value="social">I can handle pressure, but I prefer teamwork and
+            collaboration.</label>
+          <label><input type="radio" name="question3" value="managerial">I stay calm under pressure but like having a
+            clear plan to
+            follow.</label>
+        </div>
+      </div>
+      <div class="question">
+        <h3>4. What excites you about the future?</h3>
+        <div class="options">
+          <label><input type="radio" name="question4" value="technical">Creating new technology that improves people’s
+            lives.</label>
+          <label><input type="radio" name="question4" value="creative">Designing and building things that will last for
+            generations.</label>
+          <label><input type="radio" name="question4" value="social">Helping people and making a difference in
+            communities.</label>
+          <label><input type="radio" name="question4" value="managerial">Leading and managing big projects
+            efficiently.</label>
+        </div>
+      </div>
+      <div class="question">
+        <h3>5. Which of these statements describes you best?</h3>
+        <div class="options">
+          <label><input type="radio" name="question5" value="technical">I love figuring out how things work.</label>
+          <label><input type="radio" name="question5" value="creative">I enjoy building and fixing things.</label>
+          <label><input type="radio" name="question5" value="social">I am good at understanding people’s
+            emotions.</label>
+          <label><input type="radio" name="question5" value="managerial">I enjoy planning and organizing complex
+            systems.</label>
+        </div>
+      </div>
+      <div class="question">
+        <h3>6. How do you prefer to work?</h3>
+        <div class="options">
+          <label><input type="radio" name="question6" value="technical">Alone, focusing on details and
+            problem-solving.</label>
+          <label><input type="radio" name="question6" value="creative">In a team, creating or building something
+            together.</label>
+          <label><input type="radio" name="question6" value="social">With people, communicating and helping
+            them.</label>
+          <label><input type="radio" name="question6" value="managerial">Managing and organizing different moving parts
+            of a
+            project.</label>
+        </div>
+      </div>
+      <div class="question">
+        <h3>7. What motivates you the most?</h3>
+        <div class="options">
+          <label><input type="radio" name="question7" value="technical">Learning new technical skills and solving
+            complex
+            problems.</label>
+          <label><input type="radio" name="question7" value="creative">Seeing a physical result of my work (like a
+            building,
+            machine, or
+            structure).</label>
+          <label><input type="radio" name="question7" value="social">Making a positive impact on people’s lives.</label>
+          <label><input type="radio" name="question7" value="managerial">Successfully managing and organizing
+            projects.</label>
+        </div>
+      </div>
+      <div class="question">
+        <h3>8. How do you approach challenges?</h3>
+        <div class="options">
+          <label><input type="radio" name="question8" value="technical">I break them down logically and solve them step
+            by
+            step.</label>
+          <label><input type="radio" name="question8" value="creative">I experiment with different solutions until I
+            find the best
+            one.</label>
+          <label><input type="radio" name="question8" value="social">I talk to others and try to find a solution
+            together.</label>
+          <label><input type="radio" name="question8" value="managerial">I create a plan and execute it
+            systematically.</label>
+        </div>
+      </div>
+      <div class="question">
+        <h3>9. What kind of environment do you see yourself in?</h3>
+        <div class="options">
+          <label><input type="radio" name="question9" value="technical">A research lab or an office, working with
+            computers and
+            data.</label>
+          <label><input type="radio" name="question9" value="creative">A construction site, designing or building
+            structures.</label>
+          <label><input type="radio" name="question9" value="social">A community setting, helping and interacting with
+            people.</label>
+          <label><input type="radio" name="question9" value="managerial">A business setting, managing logistics or
+            finances.</label>
+        </div>
+      </div>
+      <div class="question">
+        <h3>10. What do you value most in a career?</h3>
+        <div class="options">
+          <label><input type="radio" name="question10" value="technical">Innovation and problem-solving.</label>
+          <label><input type="radio" name="question10" value="creative">Hands-on work and creativity.</label>
+          <label><input type="radio" name="question10" value="social">Social impact and helping others.</label>
+          <label><input type="radio" name="question10" value="managerial">Organization, efficiency, and
+            management.</label>
+        </div>
+      </div>
+      <button type="button" class="submit-btn" onclick="calculateResults()">See Results</button>
+    </form>
+    <div id="results" class="results"></div>
+  </div>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Heritage University. All rights reserved.</p>
+  </footer>
+  <script src="../js/quiz.js"></script>
+</body>
+
+</html>
